@@ -83,7 +83,7 @@ POST	/api/auth/login	Login and get JWT
 Polls
 Method	Endpoint	Description
 POST	/api/polls	Create a new poll (auth required)
-GET	`/api/polls?status=active	closed`
+GET	/api/polls?status=active|closed	List polls (filter by status)
 GET	/api/polls/:pollId	View poll details
 PUT	/api/polls/:pollId	Update a poll (auth required)
 DELETE	/api/polls/:pollId	Delete a poll (auth required)
@@ -98,7 +98,6 @@ Sample Poll JSON
   "startDate": "2025-09-18T09:00:00.000Z",
   "endDate": "2025-09-21T09:00:00.000Z"
 }
-
 Notes
 
 Make sure startDate is before endDate.
