@@ -73,7 +73,7 @@ JWT_EXPIRES_IN=7d
 
 Start the server:
 
-npm start
+npm run dev
 
 API Endpoints
 Authentication
