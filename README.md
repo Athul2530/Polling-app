@@ -54,7 +54,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/polling-app.git
+git clone https://github.com/Athul_2530/polling-app.git
 cd polling-app
 
 
